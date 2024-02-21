@@ -1,0 +1,29 @@
+body{
+    background-color: #0E100E;
+}
+
+nav{
+    position: relative;
+
+}
+
+nav ul{
+    list-style: none;
+    color: white;
+    font-family: Mitr;
+    font-size: 18px;
+    display: flex;
+}
+
+nav li {
+    margin: 40px;
+    cursor: pointer;
+}
+
+#index-welcometext{
+    color: white;
+    font-family: Oxygen;
+    font-size: 96px;
+    margin: 200px 0 50px 180px;
+
+}
