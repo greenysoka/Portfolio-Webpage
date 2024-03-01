@@ -1,0 +1,19 @@
+/* Kleine Geräte (Smartphones, unter 576px) */
+@media only screen and (max-width: 575.98px) {
+    #rightside{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+    }
+    #rightsidepic{
+        height: 100%;
+        position: relative;
+        margin-top: 50px;
+        width: 100px;
+        
+    }
+    #section1{
+        display: none;
+    }
+  }
