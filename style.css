@@ -1,29 +1,141 @@
 body{
     background-color: #0E100E;
+    overflow-x: hidden;
 }
 
-nav{
-    position: relative;
 
-}
 
-nav ul{
-    list-style: none;
-    color: white;
-    font-family: Mitr;
-    font-size: 18px;
-    display: flex;
-}
+/* Kleine Geräte (Smartphones, unter 576px) */
+@media only screen and (max-width: 575.98px) {
+    
+  }
 
-nav li {
-    margin: 40px;
-    cursor: pointer;
-}
 
-#index-welcometext{
-    color: white;
-    font-family: Oxygen;
-    font-size: 96px;
-    margin: 200px 0 50px 180px;
 
-}
+
+
+
+
+
+
+
+
+
+
+  
+  /* Mittlere Geräte (Tablets, 577px - 767px) */
+  @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Große Geräte (Desktops, 768px - 991px) */
+  @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Extra-große Geräte (Desktops, ab 992px) */
+  @media only screen and (min-width: 992px) {
+    nav{
+        position: relative;
+    
+    }
+    
+    nav ul{
+        list-style: none;
+        color: white;
+        font-family: Mitr;
+        font-size: 15px;
+        display: flex;
+    }
+    
+    nav li {
+        margin: 40px;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    nav li:hover{
+        scale: 1.1;
+        color: #05E3CF;
+    }
+    
+    #index-welcometext{
+        color: white;
+        font-family: Oxygen;
+        font-size: 80px;
+    
+    }
+    #div-start{
+        color: white;
+        width: 40%;
+        margin: 100px 0 200px 100px;
+        /*background-color: grey;*/
+    }
+    #div-start span{
+        margin: 0 0 50px 0;
+        font-family: Oxygen;
+        font-size: 20px;
+        opacity: 0.63;
+    }
+    #rightside{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 110%;
+    }
+    #rightsidepic{
+        height: 100%;
+        position: relative;
+        margin-top: 50px;
+        
+    }
+    #slash-img{
+        margin-top: 40px;
+    }
+    #socials{
+        margin-top: 80px;
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+    }
+    .social-imgs{
+        transition: all 0.5s;
+        width: 30px;
+        height: 30px;
+    }
+    .social-imgs:hover{
+        opacity: 1.3;
+        scale: 1.2;
+        cursor: pointer;
+    }
+
+  }
+  
