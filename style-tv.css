@@ -34,13 +34,16 @@
         color: white;
         width: 40%;
         margin: 100px 0 200px 100px;
+        height: fit-content;
+        display: grid;
         /*background-color: grey;*/
     }
     #div-start span{
-        margin: 0 0 50px 0;
+        margin: 0 0 0 0;
         font-family: Oxygen;
         font-size: 20px;
         opacity: 0.63;
+        float: left;
     }
     #rightside{
         position: absolute;
@@ -56,6 +59,7 @@
     }
     #slash-img{
         margin-top: 40px;
+        float: left;
     }
     #socials{
         margin-top: 80px;
@@ -72,6 +76,10 @@
         opacity: 1.3;
         scale: 1.2;
         cursor: pointer;
+    }
+    #section1{
+        width: 100%;
+        margin-top: 15rem;
     }
 
   }
