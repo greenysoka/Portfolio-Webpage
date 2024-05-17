@@ -3,17 +3,84 @@
     #rightside{
         position: absolute;
         right: 0;
-        top: 0;
-        height: 100%;
+        top: 50px;
+        height: 60%;
+        width: 70%;
     }
     #rightsidepic{
         height: 100%;
         position: relative;
-        margin-top: 50px;
-        width: 100px;
+        margin-top: 0px;
+        max-width: 99%;
+        margin: 0;
+        padding: 0;
         
     }
     #section1{
         display: none;
+    }
+    nav{
+        display: none;
+    }
+    #div-start span{
+        margin: 0 0 0 0;
+        font-family: Oxygen;
+        font-size: 20px;
+        opacity: 0.63;
+        float: left;
+        color: white;
+    }
+    #index-welcometext{
+        color: white;
+        font-family: Oxygen;
+        font-size: 30px;
+    
+    }
+
+    #div-start{
+        color: white;
+        width: 80%;
+        margin: 50px 0 300px 20px;
+        height: fit-content;
+        display: grid;
+        /*background-color: grey;*/
+    }
+    #div-start span{
+        margin: 40px 0 0 0;
+        font-family: Oxygen;
+        font-size: 15px;
+        opacity: 0.63;
+        float: left;
+        height: 100px ;
+        width: 50%;
+    }
+    #burger{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        /* background-color: red; */
+        width: 50px;
+        height: 50px;
+    }
+    
+    .bitem{
+        background-color: white;
+        width: 40px;
+        height: 4px;
+        margin: 10px 5px 10px 5px;
+        border-radius: 4px;
+    }
+    #socials{
+        margin-top: 90%;
+        display: flex;
+        width: 100%;
+        align-items: right;
+    }
+    .social-imgs{
+        transition: all 0.5s;
+        width: 20px;
+        height: 20px;
+        opacity: 0.7;
+        margin: 0 10% 0 10%;
     }
   }

@@ -1,4 +1,6 @@
 body{
     background-color: #0E100E;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
